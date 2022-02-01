@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+header{
+    height: 70px;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.menu-1{
+    float: left;
+    line-height: 70px;
+}
+
+.menu-2{
+    float: right;
+    line-height: 70px;
+ }
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+
+main{
+    background-color: aquamarine;
+    height: 800px;
+}
+
+.container{
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+#grid {
+     height: 100%;
+     position: absolute;
+     top: 40%;
+     width: 500px;
+  
+
+ }
+
+ p{
+     font-size: 50px;
+  
+ }
+
+
+#grid::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.square {
+    float: left;
+    border: solid 2px #fff;   
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.facile {
+     width: calc(100% / 10);
+    height: calc(100% / 10);
+
+}
+
+.media {
+     width: calc(100% / 9);
+    height: calc(100% / 9);
+   
+}
+
+.difficile {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+
+    
+}
+
+.clicked {
+    background-color: rgb(31, 130, 223);
+}
+
+footer{
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    padding-left: 50px;
+}
+
+.bomber{
+    background-color: red;
+}
